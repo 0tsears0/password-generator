@@ -1,5 +1,13 @@
 var generateBtn = document.querySelector("#generate");
 
+// create an array with all possible characters
+// set length between 8 and 128 character length
+// create confirm for special characters
+// create confirm for numeric characters
+// create confirm for lowercase characters
+// create confirm for uppercase characters
+
+
 
 // Write password to the #password input
 function writePassword() {
