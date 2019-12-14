@@ -1,12 +1,18 @@
 var generateBtn = document.querySelector("#generate");
 
 // create an array with all possible characters
+var characters = ["ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz123456789!@#$%^&*+?"];
 // set length between 8 and 128 character length
-// create confirm for special characters
-// create confirm for numeric characters
-// create confirm for lowercase characters
-// create confirm for uppercase characters
+var length = characters.length;
 
+// create confirm for special characters
+var confirmSpecial = confirm("Do you want special characters in your password?");
+// create confirm for numeric characters
+var confirmNumeric = confirm("Do you want numbers in your password?");
+// create confirm for lowercase characters
+var confirmLowercase = confirm("Do you want lowercase letters in your password?");
+// create confirm for uppercase characters
+var confirmUppercase = confirm("Do you want uppercase letters in your password?");
 
 
 // Write password to the #password input
